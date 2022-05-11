@@ -4,4 +4,6 @@ animals = [
     {'type': 'rabbit', 'name': 'tom', 'age': 7},    
 ]
 
+# Print the oldest animal 
+# Sort animals by age in reverse and print the 1st element (index zero)
 print(sorted(animals, key=lambda animal: animal['age'], reverse=True)[0])
