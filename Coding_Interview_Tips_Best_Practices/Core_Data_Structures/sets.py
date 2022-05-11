@@ -1,5 +1,5 @@
 def count_unique(s):
-    '''
+    """
     Count the number of unique characters in s
     
     >>> count_unique("aabb")
@@ -7,7 +7,7 @@ def count_unique(s):
 
     >>> count_unique("abcdef")
     6
-    '''
+    """
 
     # O(1) Constant time, set can take an iterable in its constructor.
     return len(set(s))
