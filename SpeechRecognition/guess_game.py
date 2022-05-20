@@ -76,7 +76,7 @@ def run():
     print(instructions)
     time.sleep(2)
 
-    WORD = "apple"
+    WORD = random.choice(WORDS)
 
     for i in range(NUM_GUESSES):
 
@@ -100,7 +100,7 @@ def run():
             GAME_WON = True
             break
         else:
-            print("Incorrect.  Try again.")
+            print(f"Incorrect.  {'Try again.' if i!=NUM_GUESSES-1 else 'GAME OVER'}")
 
     if GAME_WON:
         print("Correct! You Win!!")
