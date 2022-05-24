@@ -1,3 +1,5 @@
+# Unix SEQ clone.
+
 import re
 import sys
 
