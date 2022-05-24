@@ -1,8 +1,8 @@
-# Portfolio of python learning
+# Portfolio of python training
 
 <hr>
 
 ## realpython.com :snake:
 
-A personal record of python courses and tutorials completed using the resrouces from realpython.com.
+A personal record of python learning using the resrouces from realpython.com.
 
