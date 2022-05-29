@@ -21,4 +21,6 @@ print(rp.__class__.__bases__) # This will show all the classes that it is inheri
 #    == (<class '__main__.RightPyramid'>, <class 'shapes.Triangle'>, <class 'shapes.Square'>, <class 'shapes.Rectangle'>, <class 'object'>)
 # Looks in rightPyramid, then Triangle, then Square, Then Rectangle, Then Object <Top of the chain>
 
-print(RightPyramid.__mro__)
+# MRO
+print(RightPyramid.__mro__) # Returns tuple
+print(RightPyramid.mro())   # Returns a list.
